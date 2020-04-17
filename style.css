@@ -88,16 +88,22 @@ nav button{
     padding-left: 15px;
 }
 
+.column-align{
+    margin-right: auto;
+    margin-left: auto;
+    width: 850px;
+}
+
 .column-1{
     height: fit-content; 
     width: 328px;
     border: 1px solid grey;
     position: relative;
-    top: 115px;
-    margin-right: auto;
+    top: 35px;
     background-color: white;
-    padding: 15px;
-    left: 350px;
+    padding-left: 15px;
+    padding-right: 10px;
+    float: left;
 }
 
 .column-2{
@@ -105,12 +111,21 @@ nav button{
     height: 150px;
     border: 1px solid green;
     position: relative;
-    left: -300px;
-    top: -150px;
+    top: 35px;
     float: right;
+    background-color: white;
 }
 
 .about-page{
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
+}
+
+.about-page p{
+    color: blue;
+}
+.column-1 a, h3 {
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 10px 0px;
 }
