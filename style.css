@@ -4,6 +4,7 @@
 
 body{
     background-color: gainsboro;
+    font-family: sans-serif;
 }
 
 header{
@@ -107,8 +108,9 @@ nav button{
 }
 
 .column-2{
+    font-size: 12px;
+    height: fit-content;
     width: 512px;
-    height: 150px;
     border: 1px solid green;
     position: relative;
     top: 35px;
@@ -116,16 +118,64 @@ nav button{
     background-color: white;
 }
 
+.gap{
+    height: 30px;
+}
+
+.gap2{
+    height: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
 .about-page{
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
 
+.about-page h2{
+    font-size: 18px;
+}
+
+
+
 .about-page p{
     color: blue;
+    font-size: 12px;
 }
 .column-1 a, h3 {
     text-decoration: none;
     margin: 0px 0px 0px 0px;
     padding: 5px 0px 10px 0px;
+    font-size: 12px;
+}
+
+.column-2 p{
+    position: relative;
+    left: 15px;
+}
+.profile-pic{
+    float: left;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: slateblue;
+}
+.picture{
+    height: 150px;
+    width: 100%;
+    background-color: slateblue;
+}
+.column-2 ul li{
+    float: left;
+    margin-left: 15px;
+    margin-right: 5px;
+    font-weight: lighter;
+    color: steelblue;
+    margin-bottom: 5px;
+}
+
+.column-2 ul li:first-child{
+    list-style: none;
 }
