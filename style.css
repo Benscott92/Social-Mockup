@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+header{
+    height: 400px;
+    width: 850px;
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-bg{
+    width: 850px;
+    height: 350px;
+    background-color: slateblue;
+    
+}    
+
+.profile-photo{
+    background-color: slateblue;
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 225px;
+    left: 15px;
+    background-size: contain;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+nav{
+    height: 50px;
+    background-color: white;
+}
+
+.buttons{
+    float: right;
+    margin-right: 5px;
+    position: relative;
+    top: 80px;
+}
+.buttons button{
+    height: 25px;
+    float: left;
+}
+.like-button{
+    margin-right: 5px;
+}
+.site_info{
+    position: relative;
+    left: 175px;
+    top: 125px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.site_info h1{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.site_info h2{
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+nav button{
+    float: right;
+    position: relative;
+    left: -225px;
+    top: 15px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+}
+
+.menu button{
+    border-left: 1px solid lightgray;
+    padding-left: 15px;
+}
+
+.column-1{
+    height: fit-content; 
+    width: 328px;
+    border: 1px solid grey;
+    position: relative;
+    top: 115px;
+    margin-right: auto;
+    background-color: white;
+    padding: 15px;
+    left: 350px;
+}
+
+.column-2{
+    width: 512px;
+    height: 150px;
+    border: 1px solid green;
+    position: relative;
+    left: -300px;
+    top: -150px;
+    float: right;
+}
+
+.about-page{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
