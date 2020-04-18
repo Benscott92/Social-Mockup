@@ -98,7 +98,6 @@ nav button{
 .column-1{
     height: fit-content; 
     width: 328px;
-    border: 1px solid grey;
     position: relative;
     top: 35px;
     background-color: white;
@@ -111,7 +110,6 @@ nav button{
     font-size: 12px;
     height: fit-content;
     width: 512px;
-    border: 1px solid green;
     position: relative;
     top: 35px;
     float: right;
@@ -175,7 +173,21 @@ nav button{
     color: steelblue;
     margin-bottom: 5px;
 }
+li button{
+    border: none;
+    background-color: white;
+    color: steelblue;
+}
 
 .column-2 ul li:first-child{
     list-style: none;
+}
+.timestamp{
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 0px;
+}
+.dots{
+    font-size: 20px;
+    font-weight: bold;
 }
